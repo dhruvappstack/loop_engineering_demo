@@ -1,5 +1,5 @@
 # Goal: Loop Engineering overview SPA
-Status: ACTIVE   <!-- DRAFT | ACTIVE | DONE -->
+Status: DONE   <!-- DRAFT | ACTIVE | DONE -->
 
 ## Criteria
 - [x] C1: A React single-page dashboard explains Loop Engineering's purpose and its Goal → Action → Observe → Adjust cycle.
@@ -23,4 +23,4 @@ Status: ACTIVE   <!-- DRAFT | ACTIVE | DONE -->
 - [x] Build clean
 - [x] Independent review passed
 - [x] Handoff report written
-- [ ] Human accepted
+- [x] Human accepted
