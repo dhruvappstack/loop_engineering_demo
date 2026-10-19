@@ -14,9 +14,9 @@ Status: ACTIVE   <!-- DRAFT | ACTIVE | DONE -->
 - [x] C4: Changes are focused, reviewed, and handed off with any human-verification notes.
   - Verify: Review the changed files and provide the final handoff report.
   - Evidence: Fresh read-only review found no blocking issues. Improved small-text contrast to 5.26:1 and explicitly retained ordered-list semantics; final tests/build pass. Manual Safari/VoiceOver behavior remains a human verification note.
-- [ ] C5: Project files are committed locally and pushed to the configured GitHub `main` branch without overwriting remote history.
+- [x] C5: Project files are committed locally and pushed to the configured GitHub `main` branch without overwriting remote history.
   - Verify: `git status --short --branch`, `git log --oneline --graph -5`, and `git ls-remote --heads origin main`.
-  - Evidence:
+  - Evidence: Commit `ee31cca` contains the project files; merge commit `2a2c326` preserves the pre-existing GitHub `LICENSE` commit `5be8793`; `git push -u origin main` succeeded without force-pushing.
 
 ## Definition of done (global)
 - [x] Full test suite green
