@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^if \\[ -n \"\\$VSCODE_TARGET_SESSION_LOG\" \\]; then printf '%s\\\\n' \"\\$VSCODE_TARGET_SESSION_LOG\"; else printf '%s\\\\n' 'No target session log path is set'; fi$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
